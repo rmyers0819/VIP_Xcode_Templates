@@ -9,10 +9,10 @@
 @testable import ___PROJECTNAME___
 import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___InteractorTests: XCTestCase
+class ___VARIABLE_sceneName___InteractorTests: XCTestCase
 {
-	var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor
-	var presenter: Mock___FILEBASENAMEASIDENTIFIER___Presenter
+	var interactor: ___VARIABLE_sceneName___Interactor
+	var presenter: Mock___VARIABLE_sceneName___Presenter
 
 
 	// MARK: - Test lifecycle
@@ -27,7 +27,7 @@ class ___FILEBASENAMEASIDENTIFIER___InteractorTests: XCTestCase
 		catch {
 			XCTFail("Failed to create ___FILENAME___ tables with error: \(error)")
 		}
-		presenter = Mock___FILEBASENAMEASIDENTIFIER___Presenter()
+		presenter = Mock___VARIABLE_sceneName___Presenter()
 		initializeInteractor()
 
 	}
@@ -40,7 +40,7 @@ class ___FILEBASENAMEASIDENTIFIER___InteractorTests: XCTestCase
 	// MARK: - Helper Methods
 
 	func initializeInteractor() {
-		interactor = ___FILEBASENAMEASIDENTIFIER___Interactor(<#Parameters#>)
+		interactor = ___VARIABLE_sceneName___Interactor(<#Parameters#>)
 		interactor?.interactorDelegate = presenter
 	}
 
@@ -56,6 +56,6 @@ class ___FILEBASENAMEASIDENTIFIER___InteractorTests: XCTestCase
 	}
 }
 
-extension Mock___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Presenter {
+extension Mock___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___Presenter {
 
 }

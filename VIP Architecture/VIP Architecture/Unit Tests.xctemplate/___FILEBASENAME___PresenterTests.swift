@@ -9,10 +9,10 @@
 @testable import ___PROJECTNAME___
 import XCTest
 
-class ___FILEBASENAMEASIDENTIFIER___PresenterTests: XCTestCase
+class ___VARIABLE_sceneName___PresenterTests: XCTestCase
 {
-	var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor?
-	var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter?
+	var interactor: ___VARIABLE_sceneName___Interactor?
+	var presenter: ___VARIABLE_sceneName___Presenter?
 	var mockVC: MockKeyIndicatorsViewController?
 
 
@@ -28,9 +28,9 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterTests: XCTestCase
 		catch {
 			XCTFail("Failed to create ___FILENAME___ tables with error: \(error)")
 		}
-		interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
-		presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
-		mockVC = Mock___FILEBASENAMEASIDENTIFIER___ViewController()
+		interactor = ___VARIABLE_sceneName___Interactor()
+		presenter = ___VARIABLE_sceneName___Presenter()
+		mockVC = Mock___VARIABLE_sceneName___ViewController()
 		initializeInteractor()
 	}
 
@@ -42,7 +42,7 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterTests: XCTestCase
 	// MARK: - Helper Methods
 
 	func initializeInteractor() {
-		interactor = ___FILEBASENAMEASIDENTIFIER___Interactor(<#Parameters#>)
+		interactor = ___VARIABLE_sceneName___Interactor(<#Parameters#>)
 		interactor?.interactorDelegate = presenter
 	}
 
@@ -58,6 +58,6 @@ class ___FILEBASENAMEASIDENTIFIER___PresenterTests: XCTestCase
 	}
 }
 
-class Mock___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewControllerDelegate {
+class Mock___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___ViewControllerDelegate {
 	
 }

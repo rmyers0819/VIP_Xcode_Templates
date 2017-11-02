@@ -9,12 +9,12 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorDelegate: class {
+protocol ___VARIABLE_sceneName___InteractorDelegate: class {
 
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor {
-	weak var interactorDelegate: ___FILEBASENAMEASIDENTIFIER___InteractorDelegate?
+class ___VARIABLE_sceneName___Interactor {
+	weak var interactorDelegate: ___VARIABLE_sceneName___InteractorDelegate?
 
 
 	// MARK: - Business logic
@@ -22,8 +22,8 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor {
 }
 
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___ViewController Delegate
+// MARK: - ___VARIABLE_sceneName___ViewController Delegate
 
-extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___ViewControllerDelegate {
+extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___ViewControllerDelegate {
 	
 }

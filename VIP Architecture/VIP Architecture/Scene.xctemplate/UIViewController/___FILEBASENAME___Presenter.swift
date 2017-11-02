@@ -9,21 +9,22 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___PresenterDelegate: class {
-
+protocol ___VARIABLE_sceneName___PresenterDelegate: class {
+	
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter {
-	weak var presenterDelegate: ___FILEBASENAMEASIDENTIFIER___PresenterDelegate?
-  
-
+class ___VARIABLE_sceneName___Presenter {
+	weak var presenterDelegate: ___VARIABLE_sceneName___PresenterDelegate?
+	
+	
 	// MARK: - Presentation logic
-  
+	
 }
 
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___Interactor Delegate
+// MARK: - ___VARIABLE_sceneName___Interactor Delegate
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter : ___FILEBASENAMEASIDENTIFIER___InteractorDelegate {
-
+extension ___VARIABLE_sceneName___Presenter : ___VARIABLE_sceneName___InteractorDelegate {
+	
 }
+

@@ -9,31 +9,31 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerDelegate: class {
-
+protocol ___VARIABLE_sceneName___ViewControllerDelegate: class {
+	
 }
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
-	weak var viewControllerDelegate: ___FILEBASENAMEASIDENTIFIER___ViewControllerDelegate?
-	fileprivate var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter? = ___FILEBASENAMEASIDENTIFIER___Presenter()
-	fileprivate var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor? = ___FILEBASENAMEASIDENTIFIER___Interactor()
-
-
+class ___VARIABLE_sceneName___ViewController: UIViewController {
+	weak var viewControllerDelegate: ___VARIABLE_sceneName___ViewControllerDelegate?
+	fileprivate var presenter: ___VARIABLE_sceneName___Presenter? = ___VARIABLE_sceneName___Presenter()
+	fileprivate var interactor: ___VARIABLE_sceneName___Interactor? = ___VARIABLE_sceneName___Interactor()
+	
+	
 	// MARK: - View lifecycle
-
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		configureVIP()
-
+		
 	}
 }
 
-private extension ___FILEBASENAMEASIDENTIFIER___ViewController {
-
+private extension ___VARIABLE_sceneName___ViewController {
+	
 	// MARK: - Setup
-
+	
 	func configureVIP() {
-
+		
 		self.viewControllerDelegate = interactor
 		interactor?.interactorDelegate = presenter
 		presenter?.presenterDelegate = self
@@ -41,8 +41,9 @@ private extension ___FILEBASENAMEASIDENTIFIER___ViewController {
 }
 
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___Presenter Delegate
+// MARK: - ___VARIABLE_sceneName___Presenter Delegate
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___PresenterDelegate {
+extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___PresenterDelegate {
 	
 }
+
